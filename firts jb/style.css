@@ -1,0 +1,151 @@
+@font-face{
+	font-family: my-font;
+	src: url('../font/himalaya.ttf') format('truetype'),
+		 url('../font/Merriweather-Black.ttf') format('truetype'),
+		 url('../font/Merriweather-BlackItalic.ttf') format('truetype'),
+		 url('../font/Merriweather-Bold.ttf') format('truetype'),
+		 url('../font/Merriweather-BoldItalic.ttf') format('truetype'),
+		 url('../font/Merriweather-Italic.ttf') format('truetype'),
+		 url('../font/Merriweather-Light.ttf') format('truetype'),
+		 url('../font/Merriweather-LightItalic.ttf') format('truetype'),
+		 url('../font/Merriweather-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+html, body{
+	font-size: 16px;
+	
+}
+body{
+	margin: 0 300px;
+	overflow-x: hidden;
+}
+.hiden{
+	display: none;
+}
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+/*Logo and menu*/
+.head{
+	margin-top: 20px;
+	position: relative;
+}
+.head:after, .head:before{
+	content: "";
+	display: table;
+	clear: both;
+}
+#logo{
+	float: left;
+}
+#menu:after, #menu:before{
+	content: "";
+	display: table;
+	clear: both;
+}
+#menu{
+	height: auto;
+	font-family: Merriweather;
+	font-size: 14px;
+	position: relative;
+	left: 400px;
+	width: 520px;
+}
+#menu li{
+	float: left;
+	padding: 10px;
+	position: relative;
+	top: -40px;
+	left: 10px;
+	background-color: #ff9311;
+}
+#menu li>a{
+	color: white;
+}
+#menu li>a:hover{
+	border-bottom: 2px solid white;
+}
+/*CONTACT*/
+.contact{
+	width:923px;
+}
+.contact:after, .contact:before{
+	content: "";
+	display: table;
+	clear: both;
+}
+#avt-01{
+	float: left;
+}
+.info{
+	float: left;
+	padding-top: 50px;
+	line-height: 1.7;
+	position: relative;
+	left: 30px;
+}
+.info li{
+	font-family: Merriweather;
+	font-size: 14px;
+	color: #999999;
+}
+.info li>span{
+	color: black;
+}
+button{
+	background-color: #ff9311;
+	border: 1px;
+	padding: 7px 10px;
+	font-family: Merriweather;
+	color: white;
+	cursor: grab;
+	position: relative;
+	top: 100px;
+	left: 100px;
+}
+/*Main*/
+.main{
+	clear:left;
+	padding-top: 40px;
+}
+.main li img{
+	width: 440px;
+}
+#row-01{
+	float: left;
+}
+#row-02{
+	padding-left: 480px
+}
+/*footer*/
+footer{
+	margin-top: 40px;
+	text-align: center;
+}
+footer ul{
+	position: relative;
+	left: 380px;
+	width: 500px;
+}
+footer li>i{
+	float: left;
+	padding-left: 10px
+}
+footer li>i:hover{
+	color: #ff9311;
+}
+.text{
+	clear: left;
+	width: 400px;
+	position: relative;
+	left: 250px;
+}
